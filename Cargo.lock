@@ -2463,8 +2463,7 @@ dependencies = [
 [[package]]
 name = "near-primitives"
 version = "0.17.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "05f7051aaf199adc4d068620fca6d5f70f906a1540d03a8bb3701271f8881835"
+source = "git+https://github.com/jong-un-crypto/near-primitives?branch=0.17.0-patch#1ab100fd827a269efe5092b0b421780afbc9f0dc"
 dependencies = [
  "arbitrary",
  "borsh 0.10.3",
